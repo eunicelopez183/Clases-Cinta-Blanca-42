@@ -1,0 +1,55 @@
+.Padre {
+    border: solid 2px black;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Hijo {
+    border: solid green 2px;
+    height: 40%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.nieto {
+    border: solid blue 2px;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.bisnieto{
+    border: 2px solid green;
+    width: 10%;
+    height: 10%;
+
+}
+
+    
+.Hija {
+    border: 2px solid pink;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.nieta{
+    border: solid yellow 2px;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.bisnieta{
+    border: 2px solid pink;
+    width: 10%;
+    height: 10%;
+}

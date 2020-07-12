@@ -1,0 +1,19 @@
+/*
+Un Selector {
+    Propiedad: valor;
+} */
+*{background-color: purple;
+}
+h1{color:white;
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: larger;
+}
+p{color:white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    }
+img{ width: 200px; 
+    margin-left: 500px;
+}
